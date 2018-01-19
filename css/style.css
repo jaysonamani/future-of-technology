@@ -1,0 +1,68 @@
+body{
+	background-color:grey;
+	margin: 0;
+	padding:0;
+	font-family: "Helvitica";
+}
+.container{
+	width: 80%;
+	margin: auto;
+}
+.showcase{
+	min-height: 30px;
+	text-align:center;
+	background: url("../img/mpumelelo-macu-283883.jpg");
+	background-size: cover;
+}
+.header{
+	min-height: 80px;
+	background-color:blue;
+	color: black;
+	padding-top: 20px;
+	border-bottom:4px solid black;
+}
+.nav a{
+	color: blue;
+	text-decoration:none;
+	font size:10px;
+	text-transform: uppercase;
+}
+.nav li{
+	list-style: none;
+	float: left;
+	display: inline;
+	padding: 50px;
+
+}
+.branding{
+	float: left
+}
+.nav{
+	float: right;
+	margin-top: 5px;
+
+}
+.nav a:hover{
+	color: black;
+	font-weight: bold;
+
+}
+.boxes{
+	margin-top: 20px;
+	display:block;
+}
+.box{
+	width: 200px;
+	float: left;
+	padding: 20px;
+	text-align: center;
+}
+.box img{
+	width: 200px;
+}
+.footer{
+	background-color:white;
+	padding: 20px;
+	clear: both;
+	text-align: center;
+}
